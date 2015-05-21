@@ -1,3 +1,8 @@
+UPDATE: SOLUTION
+================
+
+The problem is both packages get a different instance of the ``react`` dependency. Specifying ``react`` under ``peerDependencies`` instead of ``dependencies`` in ``container/package.json`` solves that.
+
 Errors
 ======
 
