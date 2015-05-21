@@ -1,0 +1,7 @@
+{
+	"name": "container",
+	"main": "index.js",
+	"dependencies": {
+		"react": "^0.13.3"
+	}
+}
